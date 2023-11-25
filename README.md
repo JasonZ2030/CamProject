@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="CSS" rel="stylesheet"> 
+ <style>
+  p {
+   color: red;
+  }
+ </style>
 </head>
 <body>
  <table width="500px" border="5px">
@@ -12,10 +16,7 @@
       </tr>
     </table>
 <h1>About Us</h1>
-<p></p>
-<div style="font-size:20px; color: red">
-About Us
-</div>
+<h2>About Us</h2>
 <p> From the outside, we're just a group of middle school kids, but from the inside, there is a burning passion for creation. Toys4us expresses this passion, with a business that we've been long since devoted to. We hope not only, to provide goods for the market, but also to help young kids, like us, build crucial memories of joy and happiness. We hope to spread the love and support that our parents have given us, with toys that are unique and straight from our hearts and minds. Toys4us operates from a simple, at-home, system, however, we and our products are nothing short of greatness.</p> 
 <hr>
 <h2>Our Team</h2>
