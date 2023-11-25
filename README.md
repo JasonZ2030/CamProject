@@ -1,7 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="CSS" rel="stylesheet">
+<link href="CSS" rel="stylesheet"> 
+<style>
+img {
+  height: 40px;
+  width: 40px;
+}
+
+p{
+  color: red;
+}
+</style>
 </head>
 <body>
  <table width="500px" border="5px">
