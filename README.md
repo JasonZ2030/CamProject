@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link href="style.css" rel="stylesheet">
+<link href="CSS" rel="stylesheet">
 </head>
 <body>
  <table width="500px" border="5px">
