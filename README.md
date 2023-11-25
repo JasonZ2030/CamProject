@@ -12,6 +12,7 @@
       </tr>
     </table>
 <h1>About Us</h1>
+<p></p>
 <div style="font-size:20px; color: red">
 <h2>Toys4us</h2>
 </div>
