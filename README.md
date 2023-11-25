@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href"https://www.w3schools.com/w3css/4/w3.css">
 <head>
  <style>
   p {
    color: red;
   }
  </style>
- <link rel="stylesheet" href"https://www.w3schools.com/w3css/4/w3.css">
+
 </head>
 <body>
  <table width="500px" border="5px">
