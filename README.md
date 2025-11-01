@@ -6,6 +6,14 @@ As a shore angler, I've spent countless hours casting my line, waiting for bites
 
 Unlike anglers with boats who can afford expensive sonar fishfinders, I needed a budget-friendly solution that would work from the shore. That's when the idea hit me: why not create a small underwater camera that I could attach to my fishing line? This way, I could scout locations before wasting time fishing in empty water.
 
+## Photos
+<div style="display: flex; justify-content: space-around; margin: 20px 0;">
+  <img src="Images/IMG_0641.JPG" alt="Image 1" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/IMG_0640.jpg" alt="Image 2" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/IMG_0633.jpg" alt="Image 3" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
+
+
 ## Why ESP32-CAM?
 
 The ESP32-CAM module was the perfect choice for this project. Its compact size makes it ideal for attaching to a fishing line without adding too much weight or bulk that would interfere with casting. The module is also incredibly easy to program, with built-in WiFi capabilities that allow real-time video streaming directly to my phone.
@@ -16,7 +24,10 @@ Compared to other camera solutions, the ESP32-CAM offered the best balance of:
 - **Functionality**: Built-in camera and WiFi in one module
 - **Ease of use**: Well-documented and beginner-friendly
 
-*[Photos of ESP32-CAM module will go here]*
+<div style="display: flex; justify-content: space-around; margin: 20px 0;">
+  <img src="Images/IMG_0632.jpg" alt="Image 1" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/IMG_0631.JPG" alt="Image 2" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
 ### Key Features
 - Automatic recording triggered by water submersion
@@ -43,8 +54,15 @@ I taught myself KiCAD and designed a custom printed circuit board to solve this 
 
 This custom board became the backbone of the entire system, efficiently powering the camera while keeping costs low.
 
-*[Photos of custom PCB will go here]*
-
+<div style="display: flex; justify-content: space-around; margin: 20px 0;">
+  <img src="Images/Screenshot 2025-10-23 190631.png" alt="Image 1" style="width: 210px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/Screenshot 2025-10-23 190701.png" alt="Image 2" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
+<div>
+  <img src="Images/IMG_0623.JPG" alt="Image 1" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/IMG_0622.JPG" alt="Image 2" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
+  
 ### Challenge 2: Waterproof Control Interface
 
 Opening a watertight case every time I needed to power on the camera or start recording would be impractical and risk water damage. I needed external controls that maintained the waterproof seal.
@@ -67,7 +85,15 @@ I used a clear PVC pipe as the main housing, cut to the appropriate length with 
 - The ESP32 detects this current and automatically starts recording
 - This eliminates the need for manual recording activation once underwater
 
-*[Photos of button mechanism and water sensor will go here]*
+<div>
+  <img src="Images/IMG_0626.jpg" alt="Image 1" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/Screenshot 2025-11-01 151354.png" alt="Image 2" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
+
+<div>
+  <img src="Images/Screenshot 2025-11-01 151406.png" alt="Image 1" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  <img src="Images/Screenshot 2025-11-01 151421.png" alt="Image 2" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
 ### Challenge 3: Battery Access and Replacement
 
@@ -84,13 +110,17 @@ On the opposite end from the control button, I designed a removable battery comp
 
 This design allows quick battery swaps without exposing the sensitive electronics in the main camera housing.
 
-*[Photos of battery compartment will go here]*
+<div>
+  <img src="Images/IMG_0641.JPG" alt="Image 1" style="width: 400px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
 ## Version 1: Proof of Concept
 
 The first version wasn't pretty, but it worked. It was proof that the idea could be made. We had a waterproof underwater camera that could be attached to a fishing line, powered by an affordable battery system, and controlled without opening the case. While the aesthetics and refinement would come later, V1 successfully demonstrated that I could scout fishing spots from shore without expensive equipment.
 
-*[Photos of V1 prototype will go here]*
+<div style="display: flex; justify-content: space-around; margin: 20px 0;">
+  <img src="Images/IMG_0633.jpg" alt="Image 3" style="width: 300px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+</div>
 
 
 ## Future Improvements
