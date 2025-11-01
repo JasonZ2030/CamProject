@@ -18,6 +18,13 @@ Compared to other camera solutions, the ESP32-CAM offered the best balance of:
 
 *[Photos of ESP32-CAM module will go here]*
 
+### Key Features
+- Automatic recording triggered by water submersion
+- Waterproof housing rated for freshwater fishing depths
+- External power button (no need to open case)
+- Removable battery compartment for quick swaps
+- Compact design attachable to fishing line
+
 ## Design Challenges & Solutions
 
 Building this underwater camera presented three major challenges that required creative engineering solutions:
@@ -84,3 +91,31 @@ This design allows quick battery swaps without exposing the sensitive electronic
 The first version wasn't pretty, but it worked. It was proof that the idea could be made. We had a waterproof underwater camera that could be attached to a fishing line, powered by an affordable battery system, and controlled without opening the case. While the aesthetics and refinement would come later, V1 successfully demonstrated that I could scout fishing spots from shore without expensive equipment.
 
 *[Photos of V1 prototype will go here]*
+
+
+## Future Improvements
+
+### Weight Distribution & Buoyancy
+The camera doesn't balance well underwater because the heavy battery pulls it to one side, and air gets trapped unevenly in the case. Future versions will move parts around and balance the weight better so it floats straight.
+
+### Live WiFi Video Streaming
+Add live video streaming to a phone so I can see what's underwater in real-time instead of watching recorded footage later. This might need changes to how the camera is set up to get the WiFi signal working through water.
+
+### Reverse-Facing Camera
+Flip the camera around so it points backward. This way I can watch my lure as I reel it in and see how fish react to it, which helps me figure out what makes them bite.
+
+### Size & Weight Reduction
+Make the whole thing smaller and lighter by redesigning the circuit board to be more compact, switching to lighter batteries, and using a thinner case. This will make it easier to cast and attach to my fishing line.
+## Contributing
+
+If you are interested in improving the design or have suggestions, feel free to open an issue or submit a pull request!
+
+## Contact
+
+**Name**: Jason Zhang
+
+**Email**: jason.zhang.duidui@gmail.com
+
+---
+
+*Built with passion for fishing and engineering*
